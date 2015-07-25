@@ -24,11 +24,10 @@ The resulting data set has adopted the following conventions regarding variable 
 - Activity contains one of the six activities to be performed.
 - SubjCode are the IDs for the different persons performing the experiment.
 - All but the first two variables contain average values obtained form the grouping of the different source measures by activity and subject.
-- All but the first two variables are named according to the measure from the source data set they derive from:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If their name starts with 'MEAN' they are the average of original mean values. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If their name starts with 'MSTD' they are the average of original standard devation values. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The rest of the variable name states for the type of averaged measurement. 
+- All but the first two variables are named according to the measure from the source data set they derive from:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If their name starts with 'MEAN' they are the average of original mean values.<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If their name starts with 'MSTD' they are the average of original standard devation values.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The rest of the variable name states for the type of averaged measurement.
 
 More details about naming and content of variables can be found in CodeBook.pdf file in this repository.
 

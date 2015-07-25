@@ -3,6 +3,7 @@
 ### Main purpose and credits
 
 This script loads a data set from the web and processes it in order to obtain a tidy data set with summary (averages) values.
+
 *VHerreros, 20150723*
 
 ### Details
@@ -24,13 +25,13 @@ The resulting data set has adopted the following conventions regarding variable 
 - SubjCode are the IDs for the different persons performing the experiment.
 - All but the first two variables contain average values obtained form the grouping of the different source measures by activity and subject.
 - All but the first two variables are named according to the measure from the source data set they derive from:
-- - If their name starts with 'MEAN' they are the average of original mean values. 
-- - If their name starts with 'MSTD' they are the average of original standard devation values. 
-- - The rest of the variable name states for the type of averaged measurement. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If their name starts with 'MEAN' they are the average of original mean values. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If their name starts with 'MSTD' they are the average of original standard devation values. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The rest of the variable name states for the type of averaged measurement. 
 
 More details about naming and content of variables can be found in CodeBook.pdf file in this repository.
 
-The output data is tidy data text file that follows the following basic principles:
+The output data is a tidy data text file that follows the following basic principles:
 	
 - Each variable forms a column.
 - Each observation forms a row.
